@@ -1,0 +1,42 @@
+.projects{
+    display: flex;
+    gap: .8rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: fit-content;
+    border: solid 1px var(--color-gray);
+    width: min(var(--max-width),100%);
+    padding-bottom: 1rem;
+}
+
+.card img {
+    background-size: contain;
+}
+
+.card__technologies {
+    color: var(--color-gray);
+    padding: .5rem .5rem .5rem 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    border-top: solid 1px var(--color-gray);
+    border-bottom: solid 1px var(--color-gray);
+}
+
+.card__info {
+    padding-left: 1rem;
+}
+
+.info__title {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.info__desc {
+    margin-top: -.5rem;
+    font-size: 1rem;
+    color: var(--color-gray)
+}
+

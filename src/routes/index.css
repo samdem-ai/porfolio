@@ -1,0 +1,43 @@
+.hero{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.hero__title{
+    font-size: var(--size-xl);
+    font-weight: 600;
+}
+
+.hero__title span{
+    color: var(--primary-color)
+}
+
+.hero__text{
+    color: var(--color-gray);
+    font-size: var(--size-md);
+}
+
+.hero__current{
+display: flex;
+position: relative;
+justify-content: center;
+color: var(--color-gray); 
+font-size: var(--size-md);
+}
+
+.hero__current span{
+    color: var(--color-white);
+    font-weight: 700;
+    margin-left: 1rem
+}
+
+.hero__current::before{
+    content: "";
+    position: absolute;
+    left: 2.7rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--primary-color)  ;
+    
+}

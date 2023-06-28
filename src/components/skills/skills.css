@@ -1,0 +1,30 @@
+.skills{
+    display: flex;
+    gap: 10rem;
+}
+
+.skills-1{
+    width: calc(min-content + 10px);
+    border: solid 1px var(--color-gray);
+
+}
+
+.skills__list{
+    padding-left: .5rem;
+    border-top: solid 1px var(--color-gray);
+    padding-top: 1rem;
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.skills__title{
+    padding-left: .5rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.skills__list  span{
+    font-size: 1rem;
+    color: var(--color-gray);
+}

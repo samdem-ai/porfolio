@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+:root{
+  --primary-color: #C778DD;
+  --bg-color: #282C33;
+  --color-white: white;
+  --color-gray: #ABB2BF;
+  --size-sm: 1rem;
+  --size-md: 1.1rem;
+  --size-lg: 1.5rem;
+  --size-xl: 1.8rem;
+  --max-width: 330px;
+}
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: 'Fira Code', monospace;
+}
+
+body {
+  padding: 0;
+  margin:0;
+  line-height: inherit;
+  color: var(--color-white);
+  background-color: var(--bg-color);
+}
+
+p{
+  line-height: 150%;
+}
+
+.content{
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button{
+ background-color: transparent;
+ color: var(--color-white); 
+ border: 1px solid var(--color-gray);
+ font-size: var(--size-md);
+ font-weight: 400;
+ padding: .5rem 1.5rem;
+ transition: all .2s;
+}
+
+.button--primary{
+border: 1px solid var(--primary-color);
+}
+
+.button:hover{
+ background-color: var(--color-gray);
+}
+
+.button--primary:hover{
+  background-color:rgba(199, 120, 221,.5)
+
+}
+
+.boxed{
+  border: solid 1px var(--color-gray);
+  padding: 8px
+}
+
+.header-title{
+  width: 70%;
+  font-size: var(--size-lg);
+  font-weight: 600;
+}
+
+.header-title::after{
+  content:'';
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  width: 30%;
+  margin-left: 1rem;
+  margin-top:1.1rem;
+  height: 2px;
+  background-color: var(--primary-color);
+}
+
+.header-title--smaller::after{
+  width: 15%;
+}
+
+.header{
+  display: flex;    
+  align-items: center;
+  justify-content: space-between;
+  }
+
+.header-title span{
+  color: var(--primary-color);
+}
+
+.header-link{
+  width: fit-content;
+  color: var(--color-white);
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.header-link:hover{
+text-decoration-line: underline;
+}

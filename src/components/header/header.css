@@ -1,0 +1,23 @@
+.navbar{
+    margin-top: 2rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__link{
+    font-size: var(--size-md);
+    text-decoration: none;
+    color: var(--color-gray);
+    margin-left: 1.5rem;
+    transition: all .2s  ;
+}
+
+.navbar__link:hover{
+    color: var(--color-white);
+}
+
+.navbar__link span{
+    color: var(--primary-color);
+    font-weight: 700;
+}
