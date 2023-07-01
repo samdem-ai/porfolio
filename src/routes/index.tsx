@@ -7,6 +7,7 @@ import {routeLoader$} from "@builder.io/qwik-city";
 import IndexStyle from './index.css?inline'
 import Skills from "~/components/skills/Skills";
 import AboutMe from "~/components/about-me/AboutMe";
+import Contacts from "../components/contacts/Contacts";
 
 interface Quote {
     quote: string,

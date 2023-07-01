@@ -1,1 +1,30 @@
-export default
+.contacts {
+    display: flex;
+    gap: 25%;
+}
+
+.contacts__text {
+    color: var(--color-gray);
+}
+
+.contacts__table-section h3 {
+    font-size: 1rem;
+
+}
+
+.contacts__table-section {
+    padding: .8rem;
+    border: solid 1px var(--color-gray);
+    margin: 0;
+}
+
+.message {
+    font-size: 1rem;
+    color: var(--color-gray);
+    align-items: center;
+    display: flex;
+}
+
+.message p {
+    margin: 0
+}

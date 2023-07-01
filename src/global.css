@@ -97,6 +97,10 @@ border: 1px solid var(--primary-color);
   background-color: var(--primary-color);
 }
 
+.header-title--even-smaller::after{
+  width: 9%;
+}
+
 .header-title--smaller::after{
   width: 15%;
 }
