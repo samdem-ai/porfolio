@@ -101,6 +101,10 @@ border: 1px solid var(--primary-color);
   width: 15%;
 }
 
+.header-title--medium::after{
+  width: 20%;
+}
+
 .header{
   display: flex;    
   align-items: center;

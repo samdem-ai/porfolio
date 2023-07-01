@@ -1,0 +1,14 @@
+.about-me{
+    display: flex;
+    gap: 10rem;
+}
+
+.about-me__text{
+    color: var(--color-gray);
+    font-size: 1rem;
+    margin-bottom: 5ch;
+}
+
+.about-me__image{
+    margin-top: -3rem;
+}

@@ -43,7 +43,7 @@ export default component$(() => {
             <div class={"skills"}>
                 <img src={"/assets/shapes.svg"} width={349} height={282} alt={"shapes"}/>
                 <div class={"skills__details"}>
-                    <div class={"skills__table skills-1"}>
+                    <div class={"skills__table skills-1 skills__group"}>
                         <h2 class={"skills__title"}>{skills1.title}</h2>
                         <div class={"skills__list"}>
                             {skills1.skills.map(skill => (
@@ -53,11 +53,33 @@ export default component$(() => {
                             ))}
                         </div>
                     </div>
-                    <div class={"skills__table skills-2"}>
+                    <div class={"skills__group"}>
+                        {skills2.map(skills1  => (
+                            <div class={"skills__table skills-1"}>
+                                <h2 class={"skills__title"}>{skills1.title}</h2>
+                                <div class={"skills__list"}>
+                                    {skills1.skills.map(skill => (
 
+                                        <span>{skill}</span>
+
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
                     </div>
-                    <div class={"skills__table skills-3"}>
+                    <div class={"skills__group"}>
+                        {skills3.map(skills1  => (
+                            <div class={"skills__table skills-1"}>
+                                <h2 class={"skills__title"}>{skills1.title}</h2>
+                                <div class={"skills__list"}>
+                                    {skills1.skills.map(skill => (
 
+                                        <span>{skill}</span>
+
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
